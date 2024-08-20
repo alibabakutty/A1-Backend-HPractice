@@ -19,7 +19,9 @@ public class VoucherTypeMasterMapper {
                 voucherTypeMaster.getPrefixDetailsApplicationForm(),
                 voucherTypeMaster.getPrefixDetailsParticulars(),
                 voucherTypeMaster.getSuffixDetailsApplicationForm(),
-                voucherTypeMaster.getSuffixDetailsParticulars()
+                voucherTypeMaster.getSuffixDetailsParticulars(),
+                voucherTypeMaster.getVoucherDate(),
+                voucherTypeMaster.getVoucherNumber()
         );
 
     }
@@ -38,7 +40,9 @@ public class VoucherTypeMasterMapper {
                 voucherTypeMasterDto.getPrefixDetailsApplicationForm(),
                 voucherTypeMasterDto.getPrefixDetailsParticulars(),
                 voucherTypeMasterDto.getSuffixDetailsApplicationForm(),
-                voucherTypeMasterDto.getSuffixDetailsParticulars()
+                voucherTypeMasterDto.getSuffixDetailsParticulars(),
+                voucherTypeMasterDto.getVoucherDate(),
+                voucherTypeMasterDto.getVoucherNumber()
         );
     }
 }

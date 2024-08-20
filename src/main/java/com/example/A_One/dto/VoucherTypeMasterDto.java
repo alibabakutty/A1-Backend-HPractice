@@ -36,4 +36,8 @@ public class VoucherTypeMasterDto {
 
     private String suffixDetailsParticulars;
 
+    private String voucherDate;
+
+    private String voucherNumber;
+
 }

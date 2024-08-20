@@ -53,4 +53,10 @@ public class VoucherTypeMaster {
     @Column(name = "suffix_details_particulars")
     private String suffixDetailsParticulars;
 
+    @Column(name = "voucher_date")
+    private String voucherDate;
+
+    @Column(name = "voucher_number")
+    private String voucherNumber;
+
 }

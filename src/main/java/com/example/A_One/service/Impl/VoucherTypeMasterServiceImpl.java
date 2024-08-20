@@ -78,6 +78,8 @@ public class VoucherTypeMasterServiceImpl implements VoucherTypeMasterService {
         voucherTypeMaster.setPrefixDetailsParticulars(updatedVoucherTypeMaster.getPrefixDetailsParticulars());
         voucherTypeMaster.setSuffixDetailsApplicationForm(updatedVoucherTypeMaster.getSuffixDetailsApplicationForm());
         voucherTypeMaster.setSuffixDetailsParticulars(updatedVoucherTypeMaster.getSuffixDetailsParticulars());
+        voucherTypeMaster.setVoucherDate(updatedVoucherTypeMaster.getVoucherDate());
+        voucherTypeMaster.setVoucherNumber(updatedVoucherTypeMaster.getVoucherNumber());
 
         VoucherTypeMaster voucherTypeMasterObj = voucherTypeMaterDAO.save(voucherTypeMaster);
 
