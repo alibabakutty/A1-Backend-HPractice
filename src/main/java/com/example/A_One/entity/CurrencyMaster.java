@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
@@ -33,26 +35,26 @@ public class CurrencyMaster {
     private String currencySymbol;
 
     @Column(name = "rate_for_per_sales_currency")
-    private Double rateForPerSalesCurrency;
+    private BigDecimal rateForPerSalesCurrency;
 
     @Column(name = "rate_for_sales_invoice")
-    private Double rateForSalesInvoice;
+    private BigDecimal rateForSalesInvoice;
 
     @Column(name = "rate_for_per_purchase_currency")
-    private Double rateForPerPurchaseCurrency;
+    private BigDecimal rateForPerPurchaseCurrency;
 
     @Column(name = "rate_for_purchase_invoice")
-    private Double rateForPurchaseInvoice;
+    private BigDecimal rateForPurchaseInvoice;
 
     @Column(name = "rate_for_per_payment_currency")
-    private Double rateForPerPaymentCurrency;
+    private BigDecimal rateForPerPaymentCurrency;
 
     @Column(name = "rate_for_payment_invoice")
-    private Double rateForPaymentInvoice;
+    private BigDecimal rateForPaymentInvoice;
 
     @Column(name = "rate_for_per_receipt_currency")
-    private Double rateForPerReceiptCurrency;
+    private BigDecimal rateForPerReceiptCurrency;
 
     @Column(name = "rate_for_receipt_invoice")
-    private Double rateForReceiptInvoice;
+    private BigDecimal rateForReceiptInvoice;
 }
